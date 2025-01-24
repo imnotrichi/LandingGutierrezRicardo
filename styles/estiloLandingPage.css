@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+body {
+    background-color: #B2E048;
+}
+
+#portada {
+    width: 98vw;
+    border-radius: 1.5rem;
+}
+
+#imagen-perfil {
+    width: 20%;
+    border-radius: 10rem;
+    position: relative;
+    margin-top: -10rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 20px 5px darkslategray;
+}
+
+.presentacion {
+    margin-top: -3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.presentacion h1 {
+    font-size: 2rem;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.tarjeta {
+    background-color: #FDE166;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 15px 1px darkslategrey;
+}
+
+footer {
+    background-color: #3E964A;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 0.5rem;
+    margin-top: 1rem;
+}
